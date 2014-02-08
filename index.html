@@ -4,14 +4,14 @@ layout: default
 
 <!-- START THE FEATURETTES -->
 {% for post in site.posts %}
-	<hr class="featurette-divider">
-		<div class="row featurette">
-			<div class="col-md-7">
-				<h2 class="media-heading">{{ post.title | truncatewords: 10 | capitalize }}</h2>
+	<hr>
+		<div class="row">
+			<div class="col-md-8">
+				<h2 class="featurette-heading">{{ post.title | truncatewords: 10 | capitalize }}</h2>
 			 	<p>{{ post.excerpt }}</p> 
 				<a href="{{ post.url }}">Read Post</a>	
 			</div>
-			<div class="col-md-5">
+			<div class="col-md-4">
 			  <img class="featurette-image img-responsive" src="{{ post.img }}">
 			</div>
 	      </div>
