@@ -1,6 +1,7 @@
 ---
 title: Lorem Ipsum Dolor Sit Amet
 layout: post
+img: /img/download.png
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elemen\
